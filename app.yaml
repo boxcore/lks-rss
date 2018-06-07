@@ -3,6 +3,12 @@ api_version: 1
 
 handlers:
 
+- url: /static
+  static_dir: static
+
+- url: /assets
+  static_dir: assets
+
 - url: /info.php
   script: info.php
 
